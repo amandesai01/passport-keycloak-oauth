@@ -1,6 +1,6 @@
 {
   "name": "passport-keycloak-oauth2",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Passport for Keycloak via OAuth2",
   "main": "./lib",
   "repository": {
