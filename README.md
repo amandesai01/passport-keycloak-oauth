@@ -3,7 +3,7 @@ A simple [Passport](http://passportjs.org/) strategy for using [Keycloak](https:
 ## Install
 
 ```
-npm install passport-keycloak-oauth2
+npm install passport-keycloak-oauth
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ npm install passport-keycloak-oauth2
 Register the strategy
 
 ```javascript
-var KeycloakStrategy = require('passport-keycloak-oauth2').Strategy;
+var KeycloakStrategy = require('passport-keycloak-oauth').Strategy;
 
 passport.use(
   new KeycloakStrategy(

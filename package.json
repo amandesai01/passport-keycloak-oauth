@@ -1,11 +1,11 @@
 {
-  "name": "passport-keycloak-oauth2",
+  "name": "passport-keycloak-oauth",
   "version": "1.0.0",
   "description": "Passport for Keycloak via OAuth2",
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amandesai01/passport-keycloak-oauth2"
+    "url": "https://github.com/amandesai01/passport-keycloak-oauth"
   },
   "devDependencies": {
     "ejs": "^2.6.1",
