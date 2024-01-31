@@ -16,7 +16,7 @@ var KeycloakStrategy = require('passport-keycloak-oauth').Strategy;
 passport.use(
   new KeycloakStrategy(
     {
-      real: 'master',
+      realm: 'master',
       keycloakBaseURL: 'http://localhost:8080',
       clientID: KEYCLOAK_CLIENT_ID,
       clientSecret: KEYCLOAK_CLIENT_SECREY,
